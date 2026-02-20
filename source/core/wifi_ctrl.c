@@ -1379,7 +1379,6 @@ int init_wifi_ctrl(wifi_ctrl_t *ctrl)
 
     wifi_util_info_print(WIFI_CTRL, "%s:%d ****## Initialize WiFi Control ##****.\n",__func__, __LINE__);
 
-    asdf;
     //Initialize Webconfig Framework
     ctrl->webconfig.initializer = webconfig_initializer_onewifi;
     ctrl->webconfig.apply_data = (webconfig_apply_data_t) webconfig_ctrl_apply;
